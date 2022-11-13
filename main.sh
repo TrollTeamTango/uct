@@ -60,6 +60,7 @@ sudo chmod 755 vol.py
 ####### Regrippter
 cd $HOME
 echo Installing Regripper 3.0 and win32-registry-perl
+sudo su
 echo sudo is required
 echo git is required
 echo apt is required
@@ -93,3 +94,5 @@ sudo md5sum /usr/local/src/regripper/rip.pl.linux && echo "rip.pl.linux file cre
 # Copy rip.pl.linux to /usr/local/bin/rip.pl
 echo  Copy rip.pl.linux to /usr/local/bin/rip.pl
 sudo cp regripper/rip.pl.linux /usr/local/bin/rip.pl && echo “ Success /usr/local/src/regripper/rip.pl.linux copied to /usr/local/bin/rip.pl” /usr/local/bin/rip.pl  && printf "\n\n  Regipper file rip.pl has been changed!!\n  Original file is located in /usr/local/src/regripper/rip.pl\n\n"
+exit
+
