@@ -38,7 +38,7 @@ sudo apt install python3
 git clone https://salsa.debian.org/debian/distorm3.git
 cd distorm3
 sudo chmod 755 setup.py
-sudo python3 setup.py build install
+sudo python3 setup.py build install   -y
 cd ..
 ######Volatility3
 git clone https://github.com/volatilityfoundation/volatility3.git
