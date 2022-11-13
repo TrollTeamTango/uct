@@ -5,4 +5,4 @@ Clone the Repo and change to the uct folder and run the following commands:
 
 sudo chmod +x main.py
 
-./main.py
+sudo ./main.py
