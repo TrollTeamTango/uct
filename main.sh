@@ -63,12 +63,12 @@ git clone https://github.com/gitpan/Parse-Win32Registry.git
 sudo apt-get install -y libparse-win32registry-perl
 cd /usr/local/src
 git clone https://github.com/keydet89/RegRipper3.0.git
-mkdir -p   /usr/share/regripper/
-cp -r /usr/local/src/RegRipper3.0/plugins/  /usr/share/regripper/
-mv RegRipper3.0 regripper  
-ln -s  /usr/share/regripper    /usr/local/src/regripper/plugins    
-chmod 755 regripper/*
+sudo mkdir -p   /usr/share/regripper/
+sudo cp -r /usr/local/src/RegRipper3.0/plugins/  /usr/share/regripper/
+sudo mv RegRipper3.0 regripper  
+sudo ln -s  /usr/share/regripper    /usr/local/src/regripper/plugins    
+sudo chmod 755 regripper/*
 cd   /usr/local/src/regripper
-cp File.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/File.pm
-cp Key.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/Key.pm
-cp Base.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/Base.pm
+sudo cp File.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/File.pm
+sudo cp Key.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/Key.pm
+sudo cp Base.pm   /usr/share/perl5/Parse/Win32Registry/WinNT/Base.pm
