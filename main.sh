@@ -41,7 +41,7 @@ sudo chmod 755 vol.py
 ######Python3
 cd $HOME
 echo installing Python3
-sudo apt install python3 
+sudo apt install python3 -y
 ######Distom3
 cd $HOME
 echo installing DISTOM3
