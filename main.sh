@@ -59,5 +59,5 @@ sudo chmod 755 setup.py
 sudo chmod 755 vol.py
 ####### Regrippter
 cd $HOME
-sudo ./regrip.sh
+sudo bash ./regrip.sh
 exit
