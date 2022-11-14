@@ -10,5 +10,3 @@ sudo chmod +x main.sh
 sudo chmod +x regrip.sh
 
 ./main.py
-
-sudo ./regrip.py
