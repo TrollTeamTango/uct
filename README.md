@@ -10,3 +10,5 @@ sudo chmod +x regrip.sh
 copy main.sh and regrip.sh to your home directory
 
 ./main.py
+
+sudo ./regrip.sh
