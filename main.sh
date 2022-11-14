@@ -60,3 +60,4 @@ sudo chmod 755 vol.py
 ####### Regrippter
 cd $HOME
 sudo ./regrip.sh
+exit
