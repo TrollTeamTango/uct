@@ -3,10 +3,10 @@
 
 Clone the Repo and change to the uct directory and run the following commands:
 
-copy main.sh and regrip.sh to your home directory
-
 sudo chmod +x main.sh
 
 sudo chmod +x regrip.sh
+
+copy main.sh and regrip.sh to your home directory
 
 ./main.py
