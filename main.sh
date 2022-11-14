@@ -57,7 +57,4 @@ git clone https://github.com/volatilityfoundation/volatility3.git
 cd volatility3
 sudo chmod 755 setup.py
 sudo chmod 755 vol.py
-####### Regrippter
-cd $HOME
-sudo bash ./regrip.sh
 exit
